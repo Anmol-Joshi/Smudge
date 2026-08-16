@@ -37,6 +37,15 @@
         color: #666;
         margin-top: 4px;
       }
+      button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      #status {
+        font-size: 11px;
+        color: #b3261e;
+        margin-top: 4px;
+      }
     </style>
   </head>
   <body>
@@ -44,6 +53,7 @@
     <button id="toggle">Turn Blur Mode On</button>
     <button id="clear">Clear All Blurs Here</button>
     <p>When on: click an element to blur it, or drag to draw a box over any area. Click a blurred box/element again to remove it.</p>
+    <p id="status"></p>
     <script src="popup.js"></script>
   </body>
 </html>
