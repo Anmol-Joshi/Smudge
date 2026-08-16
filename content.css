@@ -1,0 +1,10 @@
+.sb-hover-outline {
+  outline: 2px solid #ff4d4d !important;
+  outline-offset: 1px !important;
+  cursor: pointer !important;
+}
+
+.sb-blurred {
+  filter: blur(10px) !important;
+  -webkit-filter: blur(10px) !important;
+}

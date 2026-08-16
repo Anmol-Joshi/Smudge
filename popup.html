@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        width: 220px;
+        font-family: -apple-system, sans-serif;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 14px;
+        margin: 0 0 10px;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 8px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 13px;
+      }
+      #toggle {
+        background: #ff4d4d;
+        color: white;
+      }
+      #toggle.active {
+        background: #22a559;
+      }
+      #clear {
+        background: #eee;
+        color: #333;
+      }
+      p {
+        font-size: 11px;
+        color: #666;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Smudge</h1>
+    <button id="toggle">Turn Blur Mode On</button>
+    <button id="clear">Clear All Blurs Here</button>
+    <p>When on, click any element on the page to blur it. Click again to unblur.</p>
+    <script src="popup.js"></script>
+  </body>
+</html>
