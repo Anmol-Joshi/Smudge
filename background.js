@@ -1,2 +1,5 @@
-// Idle service worker. Exists so the extension has a stable target for
-// automated testing tools; holds no state and makes no network calls.
+chrome.runtime.onInstalled.addListener((details) => {
+  if (details.reason === "install") {
+    chrome.tabs.create({ url: chrome.runtime.getURL("welcome.html") });
+  }
+});
