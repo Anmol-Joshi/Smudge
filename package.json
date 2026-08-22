@@ -1,0 +1,12 @@
+{
+  "name": "smudge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension: blur any element on a page for screen sharing or recording.",
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
